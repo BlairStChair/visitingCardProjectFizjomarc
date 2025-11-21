@@ -265,3 +265,54 @@ footer a:hover{
     color: #0d2c66;
 }
 
+/* Mobile view */
+@media screen and (max-width: 768px){
+    .headerDiv{
+        flex-direction: column;
+        align-content: center;
+        width: 100%;
+        height: 20%;
+        position: fixed;
+    }
+
+    .logo{
+        text-align: center;
+    }
+
+    .contentDiv{
+        padding: 20% 0 0;
+    }
+
+    .baner{
+        background: #5C86D4;
+        background: linear-gradient(133deg,rgba(92, 134, 212, 1) 28%, rgba(0, 161, 170, 1) 50%, rgba(102, 181, 128, 1) 80%);
+        width: 100%;
+        margin: 0;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 24px;
+    }
+    
+    .banerText{
+        left: 40px;
+    }
+
+    .banerText .companyName{
+        font: 74px;
+    }
+
+    .banerText .name{
+        font-size: 54px;
+    }
+
+    .banerText .slogan{
+        margin-bottom: 40px;
+    }
+ 
+    .banerText .servicesName{
+        margin-top: 40px;
+    }
+
+    .baner .banerImg{
+        display: none;
+    }
+}
+
