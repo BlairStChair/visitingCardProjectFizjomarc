@@ -52,10 +52,14 @@ html {
   
 .navBar{
   background-color: #CCCED7;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   margin: 10px;
   border-radius: 50px;
-  padding: 0px;
+  padding: 0vw 0.8vw;
   height: 54px;
+  contain: content;
 }
 
 .navTab{
@@ -73,7 +77,6 @@ html {
 .navTab li{       
   border-radius: 50px;       
   height: 100%;
-  padding: 12px 20px;
   white-space: nowrap;
   transition: background-color 0.5s ease;
 }
@@ -281,7 +284,7 @@ footer a:hover{
     }
 
     .navBar{
-        margin: 10px 115px;
+        /* margin: 10px 115px; */
     }
 
     .contentDiv{
