@@ -352,5 +352,13 @@ footer a:hover{
         font-size: 20px;
         padding: 0 1vw;
     }
+
+    .about{
+        flex-direction: column;
+    }
+
+    .divider{
+        display: none;
+    }
 }
 
