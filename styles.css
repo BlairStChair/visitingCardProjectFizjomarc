@@ -305,7 +305,8 @@ footer a:hover{
         display: flex;           
         flex-direction: column;   
         align-items: flex-start;
-        min-height: 450px;  
+        min-height: 10vh;
+        margin-bottom: 0px; 
     }
 
     /* .banerText{  
