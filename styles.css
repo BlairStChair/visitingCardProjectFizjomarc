@@ -305,7 +305,7 @@ footer a:hover{
         display: flex;           
         flex-direction: column;   
         align-items: flex-start;
-        min-height: 10vh;
+        min-height: 20vh;
         margin-bottom: 0px; 
     }
 
