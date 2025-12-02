@@ -38,7 +38,7 @@ html {
 .headerDiv{
     background-color: #F6F8FF;
     width: 100%;
-    height: 10.3%;
+    height: 20%;
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -101,11 +101,11 @@ html {
 }
 
 .baner{
-    margin-top: 3vh;
+    /* margin-top: 3vh;
     margin-bottom: 65px;
     position: relative;
     width: 100%;
-    height: 65vh;
+    height: 65vh; */
 }
 
 .baner img{
@@ -299,13 +299,13 @@ footer a:hover{
         /* background: linear-gradient(133deg,rgba(92, 134, 212, 1) 28%, rgba(0, 161, 170, 1) 50%, rgba(102, 181, 128, 1) 80%); */
         width: 100%;
         height: 500px;
-        padding: 20vh 5vw;
+        padding: 20vh 5vw 1vh 5vw;
         margin: 0;     
         /* box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 24px; */
         display: flex;           
         flex-direction: column;   
         align-items: flex-start;
-        min-height: 20vh;
+        min-height: 5vh;
         margin-bottom: 0px; 
     }
 
