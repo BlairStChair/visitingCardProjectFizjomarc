@@ -366,7 +366,7 @@ footer a:hover{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 10% 20%;
+        padding: 0% 20%;
     }
 
     .personalDesc .personalPhoto img{
@@ -386,7 +386,7 @@ footer a:hover{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 10%;
+        padding: 0% 10%;
         width: 100%;
     }
 
