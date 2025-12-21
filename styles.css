@@ -351,8 +351,9 @@ footer a:hover{
     }
 
     .servicesPriceList{
-        font-size: 20px;
-        padding: 0 1vw;
+        font-size: 16px;
+        /* padding: 0 1vw; */
+        padding: 0 20%;
     }
 
     .about{
