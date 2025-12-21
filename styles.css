@@ -373,6 +373,11 @@ footer a:hover{
         height: 20rem;
     }
 
+    .personalDesc .personalText p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+
     .divider{
         display: none;
     }
