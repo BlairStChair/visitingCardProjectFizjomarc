@@ -237,10 +237,18 @@ html {
     border-radius: 30px;
 }
 
-.personalDesc .personalText p {
-    font-weight: bold;
-    font-size: 22px;
+.personalDesc .personalText{
+    
+    text-align: justify;
+    font-size: 20px;
     line-height: 40px;
+}
+
+.personalDesc .personalText h2, h3{
+    color: #24324d;
+    text-align: center;
+    font-size: 26px;
+    padding: 30px;
 }
 
 .contact{
