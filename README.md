@@ -1,4 +1,4 @@
-Visiting card website for a client with physiotheraphy practice.
+Visiting card website for a client with physiotheraphy practice.</br>
 It's supposed to be a simple in navigation page to check basic information about client's practice.
 Target group are adults and elderly people.
 Page is made with use of minimalistic color palette to look professional and be intuitive in use.
