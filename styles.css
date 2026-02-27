@@ -164,6 +164,35 @@ html {
     margin: 0 auto;
 }
 
+.servicesList{
+    display: flex;
+}
+
+.service{
+    background-color: #CCCED7;
+    flex: 1;
+}
+
+.serviceImg{
+    height: 20%;
+    width: 20%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#physioterapyImg{
+    background-image: url("./assets/physioterapyImg.jpg");
+}
+
+#shockWaveImg{
+    background-image: url("./assets/shockwaveImg.svg");
+}
+
+#homeVisitImg{
+    background-image: url("./assets/homeVisitImg.jpg");
+}
+
 .servicesDesc h1,
 .servicesPriceList h1,
 .personalDesc h1,
@@ -172,16 +201,6 @@ html {
     font-size: 34px;
     color: #314468;
     margin-bottom: 50px;
-}
-
-.servicesPriceList table{
-    background-color: #e0e1e9;
-    border-radius: 30px;
-    padding: 20px;
-}
-
-.servicesPriceList table th{
-    padding: 10px 20px;
 }
 
 .personalDesc{
