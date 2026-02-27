@@ -160,25 +160,36 @@ html {
 }
 
 .servicesPriceList{
-    font-size: 30px;
+    font-size: 22px;
+    text-align: center;
     margin: 0 auto;
 }
 
 .servicesList{
     display: flex;
+    gap: 50px;
 }
 
 .service{
     background-color: #CCCED7;
-    flex: 1;
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    gap: 20px;
 }
 
 .serviceImg{
-    height: 20%;
-    width: 20%;
+    width: 300px;        
+    aspect-ratio: 3 / 2;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 30px;
 }
 
 #physioterapyImg{
