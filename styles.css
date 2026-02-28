@@ -13,6 +13,7 @@ body {
     background-color: #F6F8FF;
     font-family: "Ubuntu Sans", sans-serif;
     width: 100%;
+    font-weight: 500;
 }
 
 input, button, textarea, select {
@@ -238,7 +239,6 @@ html {
 }
 
 .personalDesc .personalText{
-    
     text-align: justify;
     font-size: 20px;
     line-height: 40px;
@@ -359,6 +359,7 @@ footer a:hover{
     }
 
     .banerText{  
+        color: #FFF;
         position: relative;
         display: block;
         left: 2%;
@@ -366,6 +367,10 @@ footer a:hover{
         width: 100%;  
         max-width: 95%;
         text-align: center;    
+    }
+
+    .slogan, .servicesName{
+        color: #FFF;
     }
 
     .banerText .slogan{
