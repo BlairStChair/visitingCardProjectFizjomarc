@@ -441,6 +441,10 @@ footer a:hover{
         padding: 0% 10%;
     }
 
+    .personalDesc{
+        padding: 0%;
+    }
+
     .personalDesc .personalPhoto img{
         height: 20rem;
     }
