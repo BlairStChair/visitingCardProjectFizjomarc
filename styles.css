@@ -413,7 +413,7 @@ footer a:hover{
 
     .service {
         padding: 20px;
-        width: 50%;
+        width: 70%;
         height: 40%;
         gap: 1px;
     }
@@ -453,6 +453,7 @@ footer a:hover{
 
     .personalDesc .personalText ul{
         font-size: 16px;
+        text-align: left;
     }
 
     .divider{
