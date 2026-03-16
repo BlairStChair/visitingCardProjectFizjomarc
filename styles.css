@@ -299,6 +299,23 @@ footer{
     font-weight: bold;
 }
 
+.socialmediaLinks{
+    display: flex;
+    justify-content: center;
+}
+
+footer a img{
+    width: 50px;
+}
+
+.socialmediaLinks img{
+    transition: opacity 0.3s;
+}
+
+.socialmediaLinks img:hover{
+    opacity: 0.4;
+}
+
 footer a{
     color: #1954C2;
     text-decoration: none;
